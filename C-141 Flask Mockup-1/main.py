@@ -3,7 +3,7 @@ import csv
 
 all_movies = []
 
-# Writing 'encoding='utf-8' is very necessary and important
+# Writing 'encoding='utf-8' is very necessary and important below
 with open('movies.csv', encoding='utf-8') as f:
     reader = csv.reader(f)
     data = list(reader)
